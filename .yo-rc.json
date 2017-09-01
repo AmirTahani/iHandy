@@ -1,0 +1,14 @@
+{
+  "generator-racket": {
+    "generatorVersion": "1.6.0",
+    "appName": "iHandy",
+    "filters": {
+      "sass": true,
+      "reduxSaga": true,
+      "reduxThunk": false,
+      "bootstrap": true,
+      "reactBootstrap": true,
+      "reduxForm": true
+    }
+  }
+}
