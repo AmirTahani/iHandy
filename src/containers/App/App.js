@@ -10,6 +10,11 @@ export default class App extends Component {
     const { children } = this.props;
 
     return (<div>
+      <div className="header">
+        <a className="logo" href="./">
+          ihandy
+        </a>
+      </div>
       {children}
     </div>);
   }

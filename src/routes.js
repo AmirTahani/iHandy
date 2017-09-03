@@ -13,7 +13,8 @@ import {
   HomeService,
   Login,
   Register,
-  ForgotPassword
+  ForgotPassword,
+  Privacy
 } from './containers';
 
 const client = new ApiClient();
@@ -28,6 +29,7 @@ export default function getRoutes() {
       <Route path="/" component={App}>
         <IndexRoute component={Home} />
         {/* Add routes below */}
+        <Route path="/privacy" component={Privacy} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
         <Route path="/register" component={ForgotPassword} />

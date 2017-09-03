@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 export default class Home extends Component {
   render() {
     return (
-      <div>salam</div>
+      <div>
+        <a className="btn" href="/privacy">privacy</a>
+      </div>
     );
   }
 }
